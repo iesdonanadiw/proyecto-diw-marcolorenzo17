@@ -35,16 +35,37 @@
                     <input type="button" onclick="location.href='tienda.html';" value="Buscar">
                 </td>
                 <td>
-                    <a href="carrito.html"><img src="img/twitter.png" alt="carrito" width="50px" height="50px"></a>
+                    <a href="carrito.html"><img src="img/carrito.png" alt="carrito" width="50px" height="50px"></a>
                 </td>
                 <td>
-                    <a href="login.html"><img src="img/facebook.png" alt="login" width="50px" height="50px"></a>
+                    <a href="login.html"><img src="img/login.png" alt="login" width="50px" height="50px"></a>
                 </td>
             </tr>
         </table>
     </header>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <h4>Selecciona un método de pago</h4>
+                    <img src="img/mastercard.png" alt="mastercard" width="50px" height="50px" />
+                    <img src="img/visa.png" alt="visa" width="50px" height="50px" />
+                    <img src="img/paypal.png" alt="paypal" width="50px" height="50px" />
+                    <br>
+                    <select name="pago" id="pago">
+                        <option value="Elija">Seleccionar método de pago</option>
+                        <option value="MasterCard">MasterCard</option>
+                        <option value="Visa">Visa</option>
+                        <option value="PayPal">PayPal</option>
+                    </select>
+                    <hr>
+                    <input type="button" onclick="location.href='tienda.html';" value="Tramitar pedido">
+                </td>
+            </tr>
+        </table>
+    </div>
     <footer>
-        Términos y condiciones
+        <a href="terminos.html">Términos y condiciones</a>
         |
         <a href="faq.html">FAQ</a>
         |
