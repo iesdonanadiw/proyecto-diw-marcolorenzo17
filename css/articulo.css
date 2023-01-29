@@ -19,10 +19,33 @@ div {
 
 header {
   color: white;
+  padding: 20px;
 }
 
 footer {
   color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
 }
 
 .accordion-body {

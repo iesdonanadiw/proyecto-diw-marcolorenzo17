@@ -19,8 +19,60 @@ div {
 
 header {
   color: white;
+  padding: 20px;
 }
 
 footer {
   color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+h3, h1, p {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+#tienda {
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+
+#tienda input {
+  background-color: lightblue;
+  height: 60px;
+  width: 300px;
+}
+
+#loginregister {
+  position: relative;
+  top: 170px;
+  text-align: center;
+}
+
+#loginregister input {
+  height: 60px;
+  width: 300px;
 }
