@@ -24,3 +24,7 @@ header {
 footer {
   color: white;
 }
+
+.accordion-body {
+  color: black;
+}
