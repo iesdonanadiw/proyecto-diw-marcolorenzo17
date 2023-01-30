@@ -20,6 +20,8 @@ div {
 header {
   color: white;
   padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 footer {
@@ -48,7 +50,15 @@ a:active {
   text-decoration: none;
 }
 
-h3, h1, p {
+h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 75px;
+  font-weight: bolder;
+}
+
+h3, p {
   position: relative;
   top: 100px;
   text-align: center;
@@ -61,9 +71,13 @@ h3, h1, p {
 }
 
 #tienda input {
-  background-color: lightblue;
+  background-color: #73a4fa;
   height: 60px;
   width: 300px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 #loginregister {
@@ -75,4 +89,8 @@ h3, h1, p {
 #loginregister input {
   height: 60px;
   width: 300px;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
 }
