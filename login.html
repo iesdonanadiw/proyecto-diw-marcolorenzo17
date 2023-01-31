@@ -15,22 +15,23 @@
     <div class="bg">
         <div class="cuadro">
             <h2>Iniciar sesión</h2>
-            <a href="register.html">¿No tienes una cuenta? Haz clic aquí para crearla</a>
-            <br>
+            <a href="register.html"><p class="register">¿No tienes una cuenta? Haz clic aquí para crearla</p></a>
             <p>Correo electrónico o teléfono</p>
-            <input type="text" name="correotelefono" size="50" placeholder="ejemplo@correo.com" />
+            <input type="email" name="correotelefono" size="50" placeholder="ejemplo@correo.com" />
             <p>Contraseña</p>
             <input type="password" name="contra" size="50" />
+            <a href="olvido.html"><p class="olvido">¿Has olvidado tu contraseña?</p></a>
             <br>
-            <a class="olvido" href="olvido.html">¿Has olvidado tu contraseña?</a>
-            <br><br>
-            <input type="checkbox" id="recordar" value="Recuérdame">Recuérdame
-            <br><br>
-            <input type="button" onclick="location.href='tienda.html';" value="Entrar">
+            <div class="recordar">
+                <input type="checkbox" id="recordar" value="Recuérdame"> Recuérdame
+            </div>
+            <br>
+            <input class="entrar" type="button" onclick="location.href='tienda.html';" value="Entrar">
             <br><br>
             <input type="button" onclick="location.href='google.com';" value="Iniciar sesión con Google">
-            <br><br><br>
-            <input type="button" onclick="location.href='index.html';" value="Volver a la página principal">
+        </div>
+        <div class="volver">
+            <input class="volver" type="button" onclick="location.href='index.html';" value="Volver a la página principal">
         </div>
     </div>
     <footer>
