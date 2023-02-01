@@ -13,20 +13,23 @@
         <a href="index.html">BYTEWORLD</a>
     </header>
     <div class="bg">
-        <h2>Recuperación de cuenta</h2>
-        <p>¿Te has olvidado de tu contraseña? ¡No te preocupes! Tan solo escribe tu correo
-            electrónico y una nueva contraseña, y recuperarás tu cuenta, tal y como estaba.
-        </p>
-        <p>Correo electrónico</p>
-        <input type="mail" name="correotelefono" />
-        <p>Nueva contraseña</p>
-        <input type="password" name="contra" />
-        <p>Repetir contraseña</p>
-        <input type="password" name="contra" />
-        <br><br><br>
-        <input type="button" onclick="location.href='login.html';" value="Enviar correo de recuperación">
-        <br><br><br>
-        <input type="button" onclick="location.href='index.html';" value="Volver a la página principal">
+        <div class="cuadro">
+            <h2>Recuperación de cuenta</h2>
+            <p class="primero">¿Te has olvidado de tu contraseña? ¡No te preocupes! Tan solo escribe tu correo
+                electrónico y una nueva contraseña, y recuperarás tu cuenta, tal y como estaba.
+            </p>
+            <br>
+            <p>Correo electrónico</p>
+            <input type="email" name="correo" size="50" placeholder="ejemplo@correo.com" />
+            <p>Nueva contraseña</p>
+            <input type="password" name="contra" size="50" />
+            <p>Repetir contraseña</p>
+            <input type="password" name="contra" size="50" />
+            <br><br>
+            <input class="entrar" type="button" onclick="location.href='login.html';" value="Enviar correo de recuperación">
+            <br><br><br>
+            <input class="volver" type="button" onclick="location.href='index.html';" value="Volver a la página principal">
+        </div>
     </div>
     <footer>
         <a href="terminos.html">Términos y condiciones</a>
