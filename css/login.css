@@ -114,11 +114,19 @@ a:active {
   font-size: 20px;
 }
 
+.entrar:hover {
+  background-color: blue;
+}
+
 .google {
   width: 300px;
   height: 40px;
   border-radius: 5px;
   border: 1px solid black;
+}
+
+.google:hover {
+  background-color: lightgray;
 }
 
 .logo {
@@ -141,4 +149,8 @@ a:active {
   height: 50px;
   font-weight: bold;
   color: white;
+}
+
+.volver:hover {
+  background-color: #1f75ff;
 }

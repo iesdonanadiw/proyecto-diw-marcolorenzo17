@@ -81,6 +81,10 @@ h3, p {
   font-weight: bold;
 }
 
+#tienda input:hover {
+  background-color: #3377ff;
+}
+
 #loginregister {
   position: relative;
   top: 170px;
@@ -94,6 +98,10 @@ h3, p {
   border-radius: 5px;
   color: blue;
   font-weight: bold;
+}
+
+#loginregister input:hover {
+  background-color: lightgray;
 }
 
 @media screen and (max-width: 800px) {

@@ -83,7 +83,7 @@ a:active {
   text-decoration: none;
 }
 
-.entrar {
+.enviar {
   background-color: #1f75ff;
   color: white;
   font-weight: bolder;
@@ -92,6 +92,10 @@ a:active {
   border: none;
   border-radius: 5px;
   font-size: 18px;
+}
+
+.enviar:hover {
+  background-color: blue;
 }
 
 .volver {
@@ -105,4 +109,8 @@ a:active {
   height: 50px;
   font-weight: bold;
   color: white;
+}
+
+.volver:hover {
+  background-color: #1f75ff;
 }
