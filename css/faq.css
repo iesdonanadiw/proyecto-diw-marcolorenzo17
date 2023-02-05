@@ -23,13 +23,22 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  background-color: #88e3fc;
+  font-weight: bold;
+  border-radius: 13px 13px 0px 0px;
+  border: 15px solid #88e3fc;
+  font-style: italic;
+  font-size: 20px;
+}
+
 .cuadro {
   position: relative;
-  top: 100px;
+  top: 50px;
   background-color: #cce9ff;
   margin: auto;
   width: 850px;
-  height: 650px;
+  height: 680px;
   border: 5px solid mediumaquamarine;
   border-radius: 10px;
 }
@@ -37,10 +46,13 @@ h2 {
 .pregunta {
   margin-left: 20px;
   margin-right: 20px;
-  padding: 20px;
   background-color: white;
   border-radius: 15px;
-  border: 5px;
+  border: 2px solid black;
+}
+
+.respuesta {
+  margin: 15px;
 }
 
 header {
@@ -80,7 +92,7 @@ a:active {
 .volverdiv {
   text-align: center;
   position: relative;
-  top: 150px;
+  top: 100px;
 }
 
 .volver {
