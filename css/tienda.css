@@ -13,10 +13,6 @@ html {
   background-size: cover;
 }
 
-div {
-  color: white;
-}
-
 header {
   color: white;
   padding: 20px;
@@ -49,4 +45,63 @@ a:hover {
 a:active {
   color: white;
   text-decoration: none;
+}
+
+.filtro {
+  font-size: 15px;
+}
+
+.separafiltro {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.separapagina {
+  padding-right: 10px;
+}
+
+.cuadro {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border: 3px solid gray;
+  padding: 10px;
+}
+
+.articulos {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 50px;
+  border-collapse: separate;
+}
+
+h4 {
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: right;
+}
+
+.agregardiv {
+  text-align: right;
+}
+
+.agregar {
+  background-color: #1f75ff;
+  color: white;
+  font-weight: bolder;
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.agregar:hover {
+  background-color: blue;
 }

@@ -19,8 +19,8 @@ html {
   text-align: center;
   background-color: #cce9ff;
   margin: auto;
-  width: 800px;
-  height: 550px;
+  width: 1000px;
+  height: 580px;
   border: 5px solid mediumaquamarine;
   border-radius: 10px;
 }
@@ -39,6 +39,7 @@ h2 {
   left: 0px;
   color: blue;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .login:hover {
@@ -48,6 +49,12 @@ h2 {
 .tabla {
   margin-left: auto;
   margin-right: auto;
+}
+
+td {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 header {
@@ -82,4 +89,91 @@ a:hover {
 a:active {
   color: white;
   text-decoration: none;
+}
+
+.entrar {
+  background-color: #1f75ff;
+  color: white;
+  font-weight: bolder;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.entrar:hover {
+  background-color: blue;
+}
+
+.google {
+  width: 240px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 13px;
+}
+
+.google:hover {
+  background-color: lightgray;
+}
+
+.logo {
+  position: relative;
+  top: -42px;
+  left: 223px;
+}
+
+.volverdiv {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.volver {
+  background-color: #629dfc;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.volver:hover {
+  background-color: #1f75ff;
+}
+
+.textocheck {
+  font-size: 12px;
+}
+
+#nombre {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#apellidos {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#contra {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#repite {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#direccion {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#telefono {
+  border-radius: 3px;
+  border: 1px solid black;
 }

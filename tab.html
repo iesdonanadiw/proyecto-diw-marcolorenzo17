@@ -15,23 +15,23 @@
     <header>
         <table>
             <tr>
-                <td>
+                <td class="separapagina">
                     <a href="index.html">BYTEWORLD</a>
                 </td>
-                <td>
-                    <a href="tienda.html">Todo</a>
+                <td class="separafiltro">
+                    <a class="filtro" href="tienda.html">Todo</a>
                 </td>
-                <td>
-                    <a href="tienda.html">PC</a>
+                <td class="separafiltro">
+                    <a class="filtro" href="tienda.html">PC</a>
                 </td>
-                <td>
-                    <a href="tienda.html">Móviles</a>
+                <td class="separafiltro">
+                    <a class="filtro" href="tienda.html">Móviles</a>
                 </td>
-                <td>
-                    <a href="tienda.html">Videojuegos</a>
+                <td class="separafiltro">
+                    <a class="filtro" href="tienda.html">Videojuegos</a>
                 </td>
-                <td>
-                    <a href="tienda.html">Componentes</a>
+                <td class="separafiltro">
+                    <a class="filtro" href="tienda.html">Componentes</a>
                 </td>
                 <td>
                     <input type="text" name="busqueda" placeholder="Buscar producto" />
@@ -39,20 +39,22 @@
                 <td>
                     <input type="button" onclick="location.href='tienda.html';" value="Buscar">
                 </td>
-                <td>
+                <td class="separafiltro">
                     <a href="carrito.html"><img src="img/carrito.png" alt="carrito" width="50px" height="50px"></a>
                 </td>
-                <td>
+                <td class="separafiltro">
                     <a href="login.html"><img src="img/login.png" alt="login" width="50px" height="50px"></a>
                 </td>
             </tr>
         </table>
     </header>
     <div class="bg">
-        <table>
+        <table class="contenido">
             <tr>
-                <td>
-                    <img src="img/tab.jpg" alt="tabb1" width="400px" height="400px" />
+                <td class="cuadro1">
+                    <div class="imagen">
+                        <img src="img/tab.jpg" alt="tabb1" width="400px" height="400px" />
+                    </div>
                     <h2>Tablet SAMSUNG Galaxy Tab A8</h2>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -78,16 +80,20 @@
                         </div>
                     </div>
                 </td>
-                <td>
+                <td class="cuadro2">
                     <h2>201.98 €</h2>
-                    <p>Cantidad</p>
-                    <input type="number" name="cantidad" id="cantidad" min="0" max="99">
-                    <h4>En stock ✓</h4>
-                    <input type="button" value="Añadir al carrito">
-                    <br><br>
-                    <input type="button" onclick="location.href='carrito.html';" value="Comprar ahora">
-                    <br><br>
-                    <hr>
+                    <div class="arriba">
+                        <p>Cantidad</p>
+                        <input type="number" name="cantidad" id="cantidad" min="0" max="99">
+                        <br><br>
+                        <h4>En stock ✓</h4>
+                        <br>
+                        <input type="button" value="Añadir al carrito">
+                        <br><br>
+                        <input type="button" onclick="location.href='carrito.html';" value="Comprar ahora">
+                    </div>
+                    <br>
+                    <hr color="black" size="5" noshade>
                     <h3>RESEÑAS</h3>
                     <p>Total de reseñas: 1</p>
                     <p>Valoración general: </p>

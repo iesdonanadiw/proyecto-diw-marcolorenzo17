@@ -114,3 +114,18 @@ a:active {
 .volver:hover {
   background-color: #1f75ff;
 }
+
+#correo {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#contra {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+#repite {
+  border-radius: 3px;
+  border: 1px solid black;
+}

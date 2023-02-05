@@ -50,3 +50,16 @@ a:active {
   color: white;
   text-decoration: none;
 }
+
+.filtro {
+  font-size: 15px;
+}
+
+.separafiltro {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.separapagina {
+  padding-right: 10px;
+}

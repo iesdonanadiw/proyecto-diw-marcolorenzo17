@@ -13,10 +13,6 @@ html {
   background-size: cover;
 }
 
-div {
-  color: white;
-}
-
 header {
   color: white;
   padding: 20px;
@@ -29,6 +25,60 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #252570;
+}
+
+.contenido {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px;
+  border-collapse: separate;
+}
+
+.cuadro1 {
+  position: relative;
+  background-color: #cce9ff;
+  width: 700px;
+  margin: auto;
+  border: 5px solid mediumaquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cuadro2 {
+  position: relative;
+  background-color: #cce9ff;
+  width: 300px;
+  margin: auto;
+  border: 5px solid mediumaquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.imagen {
+  background-color: white;
+  border: 5px solid white;
+  text-align: center;
+  width: 700px;
+  border-radius: 5px;
+}
+
+.arriba {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h4 {
+  color: green;
+  font-weight: bolder;
 }
 
 a:link {
@@ -53,4 +103,17 @@ a:active {
 
 .accordion-body {
   color: black;
+}
+
+.filtro {
+  font-size: 15px;
+}
+
+.separafiltro {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.separapagina {
+  padding-right: 10px;
 }
