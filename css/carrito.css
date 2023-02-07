@@ -61,7 +61,7 @@ h2 {
   background-color: #72a5f7;
   color: white;
   text-align: center;
-  width: 700px;
+  width: 750px;
   margin: auto;
   border: 5px solid mediumaquamarine;
   padding: 10px;
@@ -82,11 +82,15 @@ h2 {
 .cuadro2 {
   position: relative;
   background-color: #cce9ff;
-  width: 700px;
+  width: 750px;
   margin: auto;
   border: 5px solid mediumaquamarine;
   padding: 10px;
   border-radius: 10px;
+}
+
+.preciofinal {
+  text-align: center;
 }
 
 a:link {
