@@ -61,7 +61,7 @@ h2 {
   background-color: #72a5f7;
   color: white;
   text-align: center;
-  width: 750px;
+  width: 580px;
   margin: auto;
   border: 5px solid mediumaquamarine;
   padding: 10px;
@@ -76,13 +76,24 @@ h2 {
   border: 5px solid mediumaquamarine;
   padding: 10px;
   border-radius: 10px;
+}
+
+.cuadro1-contenido {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px;
+  border-collapse: separate;
+  height: 700px;
+}
+
+.cuadro1-metodos {
+  vertical-align: baseline;
 }
 
 .cuadro2 {
-  position: relative;
   background-color: #cce9ff;
-  width: 750px;
+  width: 580px;
   margin: auto;
   border: 5px solid mediumaquamarine;
   padding: 10px;
@@ -91,6 +102,44 @@ h2 {
 
 .preciofinal {
   text-align: center;
+}
+
+.tabla-carrito {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.imagen-producto {
+  background-color: white;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.tramitar {
+  background-color: #31c485;
+  color: white;
+  font-weight: bolder;
+  width: 250px;
+  height: 70px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+}
+
+.tramitar:hover {
+  background-color: darkgreen;
+}
+
+.metodo-texto {
+  font-size: 13px;
+}
+
+.cuadro1-linea {
+  position: relative;
+  top: 41px;
 }
 
 a:link {
