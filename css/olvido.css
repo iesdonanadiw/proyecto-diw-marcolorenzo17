@@ -5,12 +5,18 @@ html {
   background-color: #212121;
 }
 
+.contenido-pagina {
+  position: relative;
+  min-height: 100vh;
+}
+
 .bg {
   background-image: url("../img/bg/bg_olvido.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 52%;
 }
 
 .cuadro {
@@ -37,6 +43,10 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #252570;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
 }
 
 h2 {

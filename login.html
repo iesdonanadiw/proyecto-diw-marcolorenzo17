@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
     <title>ByteWorld - Inicio de sesión</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html">BYTEWORLD</a>
-    </header>
-    <div class="bg">
-        <div class="cuadro">
-            <h2>Iniciar sesión</h2>
-            <a href="register.html"><p class="register">¿No tienes una cuenta? Haz clic aquí para crearla</p></a>
-            <p>Correo electrónico o teléfono</p>
-            <input type="email" id="correotelefono" name="correotelefono" size="50" placeholder="ejemplo@correo.com" />
-            <p>Contraseña</p>
-            <input type="password" id="contra" name="contra" size="50" />
-            <a href="olvido.html"><p class="olvido">¿Has olvidado tu contraseña?</p></a>
-            <br>
-            <div class="recordar">
-                <input type="checkbox" id="recordar" value="Recuérdame"> Recuérdame
+    <div class="contenido-pagina">
+        <header>
+            <a href="index.html">BYTEWORLD</a>
+        </header>
+        <div class="bg">
+            <div class="cuadro">
+                <h2>Iniciar sesión</h2>
+                <a href="register.html">
+                    <p class="register">¿No tienes una cuenta? Haz clic aquí para crearla</p>
+                </a>
+                <p>Correo electrónico o teléfono</p>
+                <input type="email" id="correotelefono" name="correotelefono" size="50"
+                    placeholder="ejemplo@correo.com" />
+                <p>Contraseña</p>
+                <input type="password" id="contra" name="contra" size="50" />
+                <a href="olvido.html">
+                    <p class="olvido">¿Has olvidado tu contraseña?</p>
+                </a>
+                <br>
+                <div class="recordar">
+                    <input type="checkbox" id="recordar" value="Recuérdame"> Recuérdame
+                </div>
+                <br>
+                <input class="entrar" type="button" onclick="location.href='tienda.html';" value="Entrar">
+                <br><br>
+                <input class="google" type="button" onclick="location.href='google.com';"
+                    value="Iniciar sesión con Google">
+                <br>
+                <img class="logo" src="img/google.png" alt="google" width="28px">
             </div>
-            <br>
-            <input class="entrar" type="button" onclick="location.href='tienda.html';" value="Entrar">
+            <div class="volverdiv">
+                <input class="volver" type="button" onclick="location.href='index.html';"
+                    value="Volver a la página principal">
+            </div>
+        </div>
+        <footer>
+            <a href="terminos.html">Términos y condiciones</a>
+            |
+            <a href="faq.html">FAQ</a>
+            |
+            <a href="contacto.html">Contacto</a>
             <br><br>
-            <input class="google" type="button" onclick="location.href='google.com';" value="Iniciar sesión con Google">
-            <br>
-            <img class="logo" src="img/google.png" alt="google" width="28px">
-        </div>
-        <div class="volverdiv">
-            <input class="volver" type="button" onclick="location.href='index.html';" value="Volver a la página principal">
-        </div>
+            © 2022 - 2023 Byteworld, SL. Todos los derechos reservados
+        </footer>
     </div>
-    <footer>
-        <a href="terminos.html">Términos y condiciones</a>
-        |
-        <a href="faq.html">FAQ</a>
-        |
-        <a href="contacto.html">Contacto</a>
-        <br><br>
-        © 2022 - 2023 Byteworld, SL. Todos los derechos reservados
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
