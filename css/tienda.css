@@ -36,6 +36,8 @@ footer {
   background-color: #696969;
   font-size: 15px;
   padding: 6px;
+  position: relative;
+  top: -2.5px;
 }
 
 a:link {
@@ -88,7 +90,7 @@ a:active {
   border-collapse: separate;
 }
 
-.imagenarticulo {
+.imagen {
   text-align: center;
 }
 
