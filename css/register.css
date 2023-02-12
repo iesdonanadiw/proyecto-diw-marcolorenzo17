@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
   background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenido-pagina {
@@ -33,11 +34,13 @@ html {
 
 h2 {
   background-color: #72a5f7;
-  height: 60px;
+  height: 30px;
   padding: 10px;
   color: white;
   font-weight: bolder;
   border-radius: 6px 6px 0px 0px;
+  position: relative;
+  top: -20px;
 }
 
 .login {
@@ -65,7 +68,9 @@ td {
 
 header {
   color: white;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
   font-weight: bold;
   font-size: 20px;
 }
@@ -73,7 +78,7 @@ header {
 footer {
   color: white;
   text-align: center;
-  padding: 20px;
+  padding-top: 30px;
   background-color: #252570;
   position: absolute;
   bottom: 0;
@@ -130,8 +135,8 @@ a:active {
 
 .logo {
   position: relative;
-  top: -42px;
-  left: 223px;
+  top: -40px;
+  left: 230px;
 }
 
 .volverdiv {
@@ -161,29 +166,41 @@ a:active {
 #nombre {
   border-radius: 3px;
   border: 1px solid black;
+  height: 30px;
 }
 
 #apellidos {
   border-radius: 3px;
   border: 1px solid black;
+  height: 30px;
+}
+
+#mail {
+  border-radius: 3px;
+  border: 1px solid black;
+  height: 30px;
 }
 
 #contra {
   border-radius: 3px;
   border: 1px solid black;
+  height: 30px;
 }
 
 #repite {
   border-radius: 3px;
   border: 1px solid black;
+  height: 30px;
 }
 
 #direccion {
   border-radius: 3px;
   border: 1px solid black;
+  height: 30px;
 }
 
 #telefono {
   border-radius: 3px;
   border: 1px solid black;
+  height: 30px;
 }

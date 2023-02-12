@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
   background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenido-pagina {
@@ -38,7 +39,7 @@ header {
 footer {
   color: white;
   text-align: center;
-  padding: 20px;
+  padding-top: 30px;
   background-color: #252570;
   position: absolute;
   bottom: 0;
@@ -75,18 +76,6 @@ h2 {
   border-radius: 10px;
 }
 
-.cabecera2 {
-  position: relative;
-  background-color: #72a5f7;
-  color: white;
-  text-align: center;
-  width: 580px;
-  margin: auto;
-  border: 5px solid mediumaquamarine;
-  padding: 10px;
-  border-radius: 10px;
-}
-
 .cuadro1 {
   position: relative;
   background-color: #cce9ff;
@@ -110,9 +99,21 @@ h2 {
   vertical-align: baseline;
 }
 
+.cabecera2 {
+  position: relative;
+  background-color: #72a5f7;
+  color: white;
+  text-align: center;
+  width: 560px;
+  margin: auto;
+  border: 5px solid mediumaquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .cuadro2 {
   background-color: #cce9ff;
-  width: 580px;
+  width: 560px;
   margin: auto;
   border: 5px solid mediumaquamarine;
   padding: 10px;

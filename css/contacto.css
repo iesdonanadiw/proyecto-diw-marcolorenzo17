@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
   background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenido-pagina {
@@ -38,6 +39,8 @@ h3 {
 h2 {
   text-align: center;
   font-weight: bolder;
+  position: relative;
+  top: 30px;
 }
 
 .cuadro {
@@ -67,7 +70,9 @@ td {
 
 header {
   color: white;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
   font-weight: bold;
   font-size: 20px;
 }
@@ -75,7 +80,7 @@ header {
 footer {
   color: white;
   text-align: center;
-  padding: 20px;
+  padding-top: 30px;
   background-color: #252570;
   position: absolute;
   bottom: 0;

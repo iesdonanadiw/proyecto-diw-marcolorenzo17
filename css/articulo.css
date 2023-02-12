@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
   background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenido-pagina {
@@ -38,7 +39,7 @@ header {
 footer {
   color: white;
   text-align: center;
-  padding: 20px;
+  padding-top: 30px;
   background-color: #252570;
   position: absolute;
   bottom: 0;
