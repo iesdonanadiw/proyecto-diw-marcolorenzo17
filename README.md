@@ -28,9 +28,7 @@ https://www.figma.com/file/CBX0YxyRdGZhrPkyNltvgJ/ByteWorld?t=gRSRkmd2miQP4XjI-1
     escrito en el cuadro.
 
 ## RECURSOS<a name="id4"></a>
- - Bootstrap
- - W3C CSS Validator
- - W3C HTML Validator
+Bootstrap, W3C CSS Validator y W3C HTML Validator.
 
 - Can I use?: https://caniuse.com/
 - Bootstrap: https://getbootstrap.com/
