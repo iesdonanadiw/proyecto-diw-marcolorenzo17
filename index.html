@@ -17,7 +17,7 @@
         position: relative;
         min-height: 100vh;
     ">
-        <header>
+        <header style="padding: 20px;">
             <a href="index.html"><img src="img/logo.png" alt="logo" width="70" height="70"></a>
         </header>
         <div style="
@@ -26,11 +26,11 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            padding-bottom: 57%;
+            padding-bottom: 60%;
             text-align: center;
         ">
             <h3 class="text-white" style="position: relative; top: 150px;">Bienvenido a</h3>
-            <h1 class="text-white" style="position: relative; top: 150px;">BYTEWORLD</h1>
+            <h1 class="text-white fw-bolder" style="position: relative; top: 150px; font-size: 70px">BYTEWORLD</h1>
             <p class="text-white" style="position: relative; top: 150px;">Descubre la mejor tienda especializada en
                 productos informáticos de Chipiona,
                 ahora en formato web y con envíos a domicilio.</p>
@@ -39,21 +39,45 @@
             </p>
             <div>
                 <input type="button" onclick="location.href='tienda.html';" value="Ver los productos disponibles"
-                    style="position: relative; top: 150px;">
+                    style="
+                        position: relative;
+                        top: 180px;
+                        background-color: #73a4fa;
+                        height: 60px;
+                        width: 300px;
+                        border: none;
+                        border-radius: 5px;
+                        color: white;
+                        font-weight: bold;
+                    ">
             </div>
             <br>
             <table style="
                 position: relative;
-                top: 150px;
+                top: 220px;
                 margin-left: auto;
                 margin-right: auto;
             ">
                 <tr>
                     <td style="padding-left: 50px; padding-right: 50px;">
-                        <input type="button" onclick="location.href='login.html';" value="Iniciar sesión">
+                        <input type="button" onclick="location.href='login.html';" value="Iniciar sesión" style="
+                            height: 60px;
+                            width: 300px;
+                            border: none;
+                            border-radius: 5px;
+                            color: blue;
+                            font-weight: bold;
+                        ">
                     </td>
                     <td style="padding-left: 50px; padding-right: 50px;">
-                        <input type="button" onclick="location.href='register.html';" value="Registrarse">
+                        <input type="button" onclick="location.href='register.html';" value="Registrarse" style="
+                            height: 60px;
+                            width: 300px;
+                            border: none;
+                            border-radius: 5px;
+                            color: blue;
+                            font-weight: bold;
+                        ">
                     </td>
                 </tr>
             </table>
