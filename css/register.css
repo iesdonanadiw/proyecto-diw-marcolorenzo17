@@ -204,3 +204,33 @@ a:active {
   border: 1px solid black;
   height: 30px;
 }
+
+@media screen and (max-width: 1050px) {
+  .cuadro {
+    width: 450px;
+    height: 1180px;
+  }
+
+  td {
+    display: block;
+    padding: 15px;
+  }
+
+  .bg {
+    padding-bottom: 80%;
+  }
+
+  .login {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #mail {
+    width: 270px;
+  }
+
+  .logo {
+    top: -53px;
+    left: -28px;
+  }
+}

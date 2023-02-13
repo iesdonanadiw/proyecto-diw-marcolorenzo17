@@ -14,33 +14,31 @@
         <header>
             <table width="100%">
                 <tr>
-                    <td class="separapagina">
-                        <a href="index.html">BYTEWORLD</a>
+                    <td class="separapagina" id="filtros">
+                        <a href="index.html"><img src="img/logo.png" width="70px" height="70px"></a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Todo</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">PC</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Móviles</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Videojuegos</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Componentes</a>
                     </td>
-                    <td>
-                        <input type="text" name="busqueda" placeholder="Buscar producto" />
+                    <td class="derecha-busqueda">
+                        <input type="text" id="busqueda" name="busqueda" placeholder="Buscar producto" />
                         <input class="buscar" type="button" onclick="location.href='tienda.html';" value="Buscar">
                     </td>
-                    <td class="separafiltro">
-                        <a href="carrito.html"><img src="img/carrito.png" alt="carrito" width="50px" height="50px"></a>
-                    </td>
-                    <td class="separafiltro">
-                        <a href="login.html"><img src="img/login.png" alt="login" width="50px" height="50px"></a>
+                    <td class="derecha">
+                        <a class="separafiltro" href="carrito.html"><img src="img/carrito.png" alt="carrito" width="50px" height="50px"></a>
+                        <a class="separafiltro" href="login.html"><img src="img/login.png" alt="login" width="50px" height="50px"></a>
                     </td>
                 </tr>
             </table>
@@ -48,16 +46,81 @@
         <div class="bg">
             <table class="contenido">
                 <tr>
-                    <td class="cabecera1">
-                        <h4>Selecciona un método de pago</h4>
+                    <td class="cuadro2">
+                        <table class="tabla-carrito">
+                            <tr>
+                                <h2 class="titular-carrito">TU CARRITO</h2>
+                            </tr>
+                            <tr>
+                                <td class="imagen-producto">
+                                    <img src="img/phone-sm.png" alt="phonethumb" id="imagen" />
+                                </td>
+                                <td>
+                                    Smartphone SAMSUNG Galaxy A12
+                                    <h3>182.89 €</h3>
+                                </td>
+                                <td>
+                                    <p>Cantidad</p>
+                                    <input type="number" name="cantidad" id="cantidad" min="0" max="99">
+                                    <a href=""><img src="img/basura.png" alt="basura" width="20px" height="20px" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr color="gray" size="5" noshade>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="imagen-producto">
+                                    <img src="img/switch-sm.png" alt="switchthumb" id="imagen" />
+                                </td>
+                                <td>
+                                    Consola Nintendo Switch (modelo OLED)
+                                    <h3>342.95 €</h3>
+                                </td>
+                                <td>
+                                    <p>Cantidad</p>
+                                    <input type="number" name="cantidad" id="cantidad" min="0" max="99">
+                                    <a href=""><img src="img/basura.png" alt="basura" width="20px" height="20px" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr color="gray" size="5" noshade>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="imagen-producto">
+                                    <img src="img/ram-sm.png" alt="ramthumb" id="imagen" />
+                                </td>
+                                <td>
+                                    Memoria RAM Corsair Vengeance 8GB
+                                    <h3>29.99 €</h3>
+                                </td>
+                                <td>
+                                    <p>Cantidad</p>
+                                    <input type="number" name="cantidad" id="cantidad" min="0" max="99">
+                                    <a href=""><img src="img/basura.png" alt="basura" width="20px" height="20px" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr color="gray" size="10" noshade>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="preciofinal" colspan="3">
+                                    <p>Total de productos: 3</p>
+                                    <h2>Precio final: 555.83 €</h2>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
-                    <td class="cabecera2">
-                        <h2>TU CARRITO</h2>
-                    </td>
-                </tr>
-                <tr>
                     <td class="cuadro1">
                         <table class="cuadro1-contenido">
+                            <tr>
+                                <h3 class="titular-pago">Selecciona un método de pago</h3>
+                            </tr>
                             <tr>
                                 <td class="cuadro1-metodos">
                                     <img src="img/mastercard.png" alt="mastercard" width="50px" height="30px" />
@@ -88,78 +151,11 @@
                             </tr>
                         </table>
                     </td>
-                    <td class="cuadro2">
-                        <table class="tabla-carrito">
-                            <tr>
-                                <td class="imagen-producto">
-                                    <img src="img/phone-sm.png" alt="phonethumb" />
-                                </td>
-                                <td>
-                                    Smartphone SAMSUNG Galaxy A12
-                                    <h3>182.89 €</h3>
-                                </td>
-                                <td>
-                                    <p>Cantidad</p>
-                                    <input type="number" name="cantidad" id="cantidad" min="0" max="99">
-                                    <a href=""><img src="img/basura.png" alt="basura" width="20px" height="20px" /></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">
-                                    <hr color="gray" size="5" noshade>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="imagen-producto">
-                                    <img src="img/switch-sm.png" alt="switchthumb" />
-                                </td>
-                                <td>
-                                    Consola Nintendo Switch (modelo OLED)
-                                    <h3>342.95 €</h3>
-                                </td>
-                                <td>
-                                    <p>Cantidad</p>
-                                    <input type="number" name="cantidad" id="cantidad" min="0" max="99">
-                                    <a href=""><img src="img/basura.png" alt="basura" width="20px" height="20px" /></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">
-                                    <hr color="gray" size="5" noshade>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="imagen-producto">
-                                    <img src="img/ram-sm.png" alt="ramthumb" />
-                                </td>
-                                <td>
-                                    Memoria RAM Corsair Vengeance 8GB
-                                    <h3>29.99 €</h3>
-                                </td>
-                                <td>
-                                    <p>Cantidad</p>
-                                    <input type="number" name="cantidad" id="cantidad" min="0" max="99">
-                                    <a href=""><img src="img/basura.png" alt="basura" width="20px" height="20px" /></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">
-                                    <hr color="gray" size="10" noshade>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="preciofinal" colspan="3">
-                                    <p>Total de productos: 3</p>
-                                    <h2>Precio final: 555.83 €</h2>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
                 </tr>
             </table>
         </div>
         <footer>
-            <a href="terminos.html">Términos y condiciones</a>
+            <a href="terminos.pdf">Términos y condiciones</a>
             |
             <a href="faq.html">FAQ</a>
             |

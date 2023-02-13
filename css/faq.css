@@ -128,3 +128,18 @@ a:active {
 .volver:hover {
   background-color: #1f75ff;
 }
+
+@media screen and (max-width: 900px) {
+  .bg {
+    padding-bottom: 70%;
+  }
+
+  .cuadro {
+    width: 400px;
+    height: 980px;
+  }
+
+  .pregunta {
+    height: 200px;
+  }
+}

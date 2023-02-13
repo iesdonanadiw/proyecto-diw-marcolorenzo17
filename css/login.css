@@ -181,3 +181,27 @@ a:active {
   border: 1px solid black;
   height: 30px;
 }
+
+@media screen and (max-width: 700px) {
+  .bg {
+    padding-bottom: 70%;
+  }
+
+  .cuadro {
+    width: 400px;
+    height: 580px;
+  }
+
+  .register {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #correotelefono {
+    width: 275px;
+  }
+
+  #contra {
+    width: 275px;
+  }
+}

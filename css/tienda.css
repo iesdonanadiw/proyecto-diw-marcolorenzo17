@@ -17,7 +17,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
 }
 
 header {
@@ -48,7 +48,10 @@ footer {
   font-size: 15px;
   padding: 6px;
   position: relative;
-  top: -2.5px;
+  top: 1px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
 }
 
 a:link {
@@ -72,7 +75,7 @@ a:active {
 }
 
 .filtro {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .separafiltro {
@@ -82,6 +85,24 @@ a:active {
 
 .separapagina {
   padding-right: 10px;
+}
+
+.derecha {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.derecha-busqueda {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+#busqueda {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
 }
 
 .cuadro {
@@ -97,7 +118,7 @@ a:active {
 .articulos {
   margin-left: auto;
   margin-right: auto;
-  border-spacing: 50px;
+  border-spacing: 20px;
   border-collapse: separate;
 }
 
@@ -132,4 +153,28 @@ h3 {
 
 .agregar:hover {
   background-color: blue;
+}
+
+@media screen and (max-width: 1050px) {
+  .bg {
+    padding-bottom: 30%;
+  }
+
+  .cuadro {
+    width: 400px;
+    height: 380px;
+  }
+
+  .articulos td {
+    display: block;
+    padding: 15px;
+  }
+
+  #filtros {
+    display: block;
+  }
+
+  .derecha-busqueda {
+    text-align: center;
+  }
 }

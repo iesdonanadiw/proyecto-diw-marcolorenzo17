@@ -72,6 +72,7 @@ footer {
   border: 5px solid mediumaquamarine;
   padding: 10px;
   border-radius: 10px;
+  vertical-align: baseline;
 }
 
 .imagen {
@@ -80,6 +81,10 @@ footer {
   text-align: center;
   width: 700px;
   border-radius: 5px;
+}
+
+.imagenes {
+  text-align: center;
 }
 
 .arriba {
@@ -99,6 +104,18 @@ h3 {
 h4 {
   color: green;
   font-weight: bolder;
+}
+
+.buscar {
+  color: white;
+  background-color: #696969;
+  font-size: 15px;
+  padding: 6px;
+  position: relative;
+  top: 1px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
 }
 
 a:link {
@@ -121,12 +138,8 @@ a:active {
   text-decoration: none;
 }
 
-.accordion-body {
-  color: black;
-}
-
 .filtro {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .separafiltro {
@@ -136,4 +149,87 @@ a:active {
 
 .separapagina {
   padding-right: 10px;
+}
+
+.derecha {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.derecha-busqueda {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.aniadir {
+  background-color: #1f75ff;
+  color: white;
+  font-weight: bolder;
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.aniadir:hover {
+  background-color: blue;
+}
+
+.comprar {
+  background-color: #44b37d;
+  color: white;
+  font-weight: bolder;
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.comprar:hover {
+  background-color: darkgreen;
+}
+
+#busqueda {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .bg {
+    padding-bottom: 30%;
+  }
+
+  #filtros {
+    display: block;
+  }
+
+  .derecha-busqueda {
+    text-align: center;
+  }
+
+  .contenido td {
+    display: block;
+  }
+
+  .cuadro1 {
+    width: 380px;
+  }
+
+  .imagen {
+    width: 370px;
+  }
+
+  #imagen {
+    width: 350px;
+    height: 350px;
+  }
+
+  .cuadro2 {
+    width: 380px;
+  }
 }

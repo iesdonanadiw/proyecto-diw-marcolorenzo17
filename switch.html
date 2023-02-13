@@ -14,33 +14,31 @@
         <header>
             <table width="100%">
                 <tr>
-                    <td class="separapagina">
-                        <a href="index.html">BYTEWORLD</a>
+                    <td class="separapagina" id="filtros">
+                        <a href="index.html"><img src="img/logo.png" width="70px" height="70px"></a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Todo</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">PC</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Móviles</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Videojuegos</a>
                     </td>
-                    <td class="separafiltro">
+                    <td class="separafiltro" id="filtros">
                         <a class="filtro" href="tienda.html">Componentes</a>
                     </td>
-                    <td>
-                        <input type="text" name="busqueda" placeholder="Buscar producto" />
+                    <td class="derecha-busqueda">
+                        <input type="text" id="busqueda" name="busqueda" placeholder="Buscar producto" />
                         <input class="buscar" type="button" onclick="location.href='tienda.html';" value="Buscar">
                     </td>
-                    <td class="separafiltro">
-                        <a href="carrito.html"><img src="img/carrito.png" alt="carrito" width="50px" height="50px"></a>
-                    </td>
-                    <td class="separafiltro">
-                        <a href="login.html"><img src="img/login.png" alt="login" width="50px" height="50px"></a>
+                    <td class="derecha">
+                        <a class="separafiltro" href="carrito.html"><img src="img/carrito.png" alt="carrito" width="50px" height="50px"></a>
+                        <a class="separafiltro" href="login.html"><img src="img/login.png" alt="login" width="50px" height="50px"></a>
                     </td>
                 </tr>
             </table>
@@ -50,7 +48,10 @@
                 <tr>
                     <td class="cuadro1">
                         <div class="imagen">
-                            <img src="img/switch-big.png" alt="switchb1" width="400px" height="400px" />
+                            <img src="img/switch-big.png" alt="switchb1" id="imagen" />
+                        </div>
+                        <div class="imagenes">
+                            <img src="img/imagenes.png" alt="imagenes" width="135px" height="45px">
                         </div>
                         <h2>Consola Nintendo Switch (modelo OLED)</h2>
                         <br>
@@ -77,23 +78,26 @@
                             <br><br>
                             <h4>En stock ✓</h4>
                             <br>
-                            <input type="button" value="Añadir al carrito">
+                            <input class="aniadir" type="button" value="Añadir al carrito">
                             <br><br>
-                            <input type="button" onclick="location.href='carrito.html';" value="Comprar ahora">
+                            <input class="comprar" type="button" onclick="location.href='carrito.html';" value="Comprar ahora">
                         </div>
                         <br>
                         <hr color="black" size="5" noshade>
                         <h3>RESEÑAS</h3>
                         <p>Total de reseñas: 1</p>
-                        <p>Valoración general: </p>
+                        <p>Valoración general:</p>
+                        <img src="img/cuatro.png" alt="cuatro" width="60" height="20">
+                        <br><br>
                         <img src="img/login.png" alt="login" width="30px" height="30px">
-                        - Usuario7457
+                        <img src="img/cuatro.png" alt="cuatro" width="60" height="20">
+                        <p>- Usuario7457</p>
                     </td>
                 </tr>
             </table>
         </div>
         <footer>
-            <a href="terminos.html">Términos y condiciones</a>
+            <a href="terminos.pdf">Términos y condiciones</a>
             |
             <a href="faq.html">FAQ</a>
             |
