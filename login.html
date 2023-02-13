@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>ByteWorld - Inicio de sesión</title>
+</head>
+
+<body>
+    <div class="contenido-pagina">
+        <header>
+            <a href="index.html"><img src="img/logo.png" alt="logo" width="70" height="70"></a>
+        </header>
+        <div class="bg">
+            <div class="cuadro">
+                <h2>Iniciar sesión</h2>
+                <a href="register.html">
+                    <p class="register">¿No tienes una cuenta? Pulsa aquí para crearla</p>
+                </a>
+                <br>
+                <p>Correo electrónico o teléfono</p>
+                <input type="email" id="correotelefono" name="correotelefono" size="50"
+                    placeholder="ejemplo@correo.com">
+                <p>Contraseña</p>
+                <input type="password" id="contra" name="contra" size="50">
+                <a href="olvido.html">
+                    <p class="olvido">¿Has olvidado tu contraseña?</p>
+                </a>
+                <br>
+                <div class="recordar">
+                    <input type="checkbox" id="recordar" value="Recuérdame"> Recuérdame
+                </div>
+                <br>
+                <input class="entrar" type="button" onclick="location.href='tienda.html';" value="Entrar">
+                <br><br>
+                <input class="google" type="button" onclick="location.href='google.com';"
+                    value="Iniciar sesión con Google">
+                <br>
+                <img class="logo" src="img/google.png" alt="google" width="28">
+            </div>
+            <div class="volverdiv">
+                <input class="volver" type="button" onclick="location.href='index.html';"
+                    value="Volver a la página principal">
+            </div>
+        </div>
+        <footer>
+            <a href="terminos.pdf">Términos y condiciones</a>
+            |
+            <a href="faq.html">FAQ</a>
+            |
+            <a href="contacto.html">Contacto</a>
+            <br><br>
+            © 2022 - 2023 Byteworld, SL. Todos los derechos reservados
+        </footer>
+    </div>
+</body>
+
+</html>

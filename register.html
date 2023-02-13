@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>ByteWorld - Registro de usuario</title>
+</head>
+
+<body>
+    <div class="contenido-pagina">
+        <header>
+            <a href="index.html"><img src="img/logo.png" alt="logo" width="70" height="70"></a>
+        </header>
+        <div class="bg">
+            <div class="cuadro">
+                <h2>Registro de usuario</h2>
+                <a href="login.html">
+                    <p class="login">¿Ya tienes una cuenta? Pulsa aquí para iniciar sesión</p>
+                </a>
+                <table class="tabla">
+                    <tr>
+                        <td>
+                            Nombre
+                            <br>
+                            <input type="text" id="nombre" name="nombre" size="35">
+                        </td>
+                        <td>
+                            Apellidos
+                            <br>
+                            <input type="text" id="apellidos" name="apellidos" size="35">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Fecha de nacimiento
+                            <br>
+                            <input type="date" name="fecha">
+                        </td>
+                        <td>
+                            Sexo
+                            <br>
+                            <select name="sexo" id="sexo">
+                                <option value="Elija">Seleccionar sexo</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                                <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Correo electrónico
+                            <br>
+                            <input type="email" id="mail" name="mail" placeholder="ejemplo@correo.com" size="89">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Contraseña
+                            <br>
+                            <input type="password" id="contra" name="contra" size="35">
+                        </td>
+                        <td>
+                            Confirmar contraseña
+                            <br>
+                            <input type="password" id="repite" name="repite" size="35">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Provincia
+                            <br>
+                            <select name="provincia" id="provincia">
+                                <option value="Seleccionar provincia">Seleccionar provincia</option>
+                                <option value="Cádiz">Cádiz</option>
+                                <option value="Sevilla">Sevilla</option>
+                                <option value="Málaga">Málaga</option>
+                            </select>
+                        </td>
+                        <td>
+                            Dirección
+                            <br>
+                            <input type="text" id="direccion" name="direccion" size="35">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ciudad
+                            <br>
+                            <select name="ciudad" id="ciudad">
+                                <option value="Seleccionar ciudad">Seleccionar ciudad</option>
+                                <option value="Chipiona">Chipiona</option>
+                                <option value="Sanlúcar de Barrameda">Sanlúcar de Barrameda</option>
+                                <option value="Jerez de la Frontera">Jerez de la Frontera</option>
+                            </select>
+                        </td>
+                        <td>
+                            Teléfono
+                            <br>
+                            <input type="text" id="telefono" name="telefono" size="35">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <td class="textocheck">
+                            <input type="checkbox" id="terminosleidos" value="terminos"> He leído y estoy de acuerdo con los
+                            términos y condiciones.
+                            <br><br>
+                            <input type="checkbox" id="recibircorreos" value="terminos"> Quiero recibir ofertas y promociones
+                            a través de mi correo electrónico.
+                        </td>
+                        <td>
+                            <input class="entrar" type="button" onclick="location.href='tienda.html';"
+                                value="Registrar">
+                            <input class="google" type="button" onclick="location.href='google.com';"
+                                value="Crear cuenta con Google">
+                        </td>
+                    </tr>
+                </table>
+                <img class="logo" src="img/google.png" alt="google" width="23">
+                <br><br>
+                <div class="volverdiv">
+                    <input class="volver" type="button" onclick="location.href='index.html';"
+                        value="Volver a la página principal">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a href="terminos.pdf">Términos y condiciones</a>
+            |
+            <a href="faq.html">FAQ</a>
+            |
+            <a href="contacto.html">Contacto</a>
+            <br><br>
+            © 2022 - 2023 Byteworld, SL. Todos los derechos reservados
+        </footer>
+    </div>
+</body>
+
+</html>

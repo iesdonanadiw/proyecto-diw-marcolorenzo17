@@ -1,0 +1,205 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido-pagina {
+  position: relative;
+  min-height: 100vh;
+}
+
+.bg {
+  background-image: url("../img/bg/bg_tienda.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20%;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tabla-header {
+  width: 100%;
+}
+
+.tablaheader {
+  width: 100%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #252570;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.buscar {
+  color: white;
+  background-color: #696969;
+  font-size: 15px;
+  padding: 6px;
+  position: relative;
+  top: 1px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.filtro {
+  font-size: 17px;
+}
+
+.separafiltro {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.separapagina {
+  padding-right: 10px;
+}
+
+.derecha {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.derecha-busqueda {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+#busqueda {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.cuadro {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border: 3px solid gray;
+  padding: 10px;
+}
+
+.articulos {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 20px;
+  border-collapse: separate;
+  width: 100%;
+}
+
+.imagen {
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: right;
+}
+
+.agregardiv {
+  text-align: right;
+}
+
+.agregar {
+  background-color: #1f75ff;
+  color: white;
+  font-weight: bolder;
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.agregar:hover {
+  background-color: blue;
+}
+
+@media screen and (max-width: 1050px) {
+  .bg {
+    padding-bottom: 30%;
+  }
+
+  .cuadro {
+    width: 400px;
+    height: 380px;
+  }
+
+  .articulos td {
+    display: block;
+    padding: 15px;
+  }
+
+  #filtros-logo {
+    display: block;
+  }
+
+  #filtros-todo {
+    display: block;
+  }
+
+  #filtros-pc {
+    display: block;
+  }
+
+  #filtros-moviles {
+    display: block;
+  }
+
+  #filtros-videojuegos {
+    display: block;
+  }
+
+  #filtros-componentes {
+    display: block;
+  }
+
+  .derecha-busqueda {
+    text-align: center;
+  }
+}

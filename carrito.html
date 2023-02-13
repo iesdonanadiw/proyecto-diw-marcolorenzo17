@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrito.css">
+    <title>ByteWorld - Carrito</title>
+</head>
+
+<body>
+    <div class="contenido-pagina">
+        <header>
+            <table class="tabla-header">
+                <tr>
+                    <td class="separapagina" id="filtros-logo">
+                        <a href="index.html"><img src="img/logo.png" alt="logo" width="70" height="70"></a>
+                    </td>
+                    <td class="separafiltro" id="filtros-todo">
+                        <a class="filtro" href="tienda.html">Todo</a>
+                    </td>
+                    <td class="separafiltro" id="filtros-pc">
+                        <a class="filtro" href="tienda.html">PC</a>
+                    </td>
+                    <td class="separafiltro" id="filtros-moviles">
+                        <a class="filtro" href="tienda.html">Móviles</a>
+                    </td>
+                    <td class="separafiltro" id="filtros-videojuegos">
+                        <a class="filtro" href="tienda.html">Videojuegos</a>
+                    </td>
+                    <td class="separafiltro" id="filtros-componentes">
+                        <a class="filtro" href="tienda.html">Componentes</a>
+                    </td>
+                    <td class="derecha-busqueda">
+                        <input type="text" id="busqueda" name="busqueda" placeholder="Buscar producto">
+                        <input class="buscar" type="button" onclick="location.href='tienda.html';" value="Buscar">
+                    </td>
+                    <td class="derecha">
+                        <a class="separafiltro" href="carrito.html"><img src="img/carrito.png" alt="carrito" width="50" height="50"></a>
+                        <a class="separafiltro" href="login.html"><img src="img/login.png" alt="login" width="50" height="50"></a>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <div class="bg">
+            <table class="contenido">
+                <tr>
+                    <td class="cuadro2">
+                        <h2 class="titular-carrito">TU CARRITO</h2>
+                        <table class="tabla-carrito">
+                            <tr>
+                                <td class="imagen-producto">
+                                    <img src="img/phone-sm.png" alt="phonethumb">
+                                </td>
+                                <td>
+                                    Smartphone SAMSUNG Galaxy A12
+                                    <h3>182.89 €</h3>
+                                </td>
+                                <td>
+                                    <p>Cantidad</p>
+                                    <input type="number" name="cantidad" min="0" max="99">
+                                    <a href=""><img src="img/basura.png" alt="basura" width="20" height="20"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr class="linea">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="imagen-producto">
+                                    <img src="img/switch-sm.png" alt="switchthumb">
+                                </td>
+                                <td>
+                                    Consola Nintendo Switch (modelo OLED)
+                                    <h3>342.95 €</h3>
+                                </td>
+                                <td>
+                                    <p>Cantidad</p>
+                                    <input type="number" name="cantidad" min="0" max="99">
+                                    <a href=""><img src="img/basura.png" alt="basura" width="20" height="20"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr class="linea">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="imagen-producto">
+                                    <img src="img/ram-sm.png" alt="ramthumb">
+                                </td>
+                                <td>
+                                    Memoria RAM Corsair Vengeance 8GB
+                                    <h3>29.99 €</h3>
+                                </td>
+                                <td>
+                                    <p>Cantidad</p>
+                                    <input type="number" name="cantidad" min="0" max="99">
+                                    <a href=""><img src="img/basura.png" alt="basura" width="20" height="20"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr class="linea">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="preciofinal" colspan="3">
+                                    <p>Total de productos: 3</p>
+                                    <h2>Precio final: 555.83 €</h2>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="cuadro1">
+                        <h3 class="titular-pago">Selecciona un método de pago</h3>
+                        <table class="cuadro1-contenido">
+                            <tr>
+                                <td class="cuadro1-metodos">
+                                    <img src="img/mastercard.png" alt="mastercard" width="50" height="30">
+                                    <img src="img/visa.png" alt="visa" width="80" height="30">
+                                    <img src="img/paypal.png" alt="paypal" width="50" height="50">
+                                    <br><br>
+                                    <select name="pago" id="pago">
+                                        <option value="Elija">Seleccionar método de pago</option>
+                                        <option value="MasterCard">MasterCard</option>
+                                        <option value="Visa">Visa</option>
+                                        <option value="PayPal">PayPal</option>
+                                    </select>
+                                    <br><br>
+                                    <p class="metodo-texto">No se ha seleccionado ningún método de pago</p>
+                                    <input type="text" name="texto" size="35" disabled>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <hr class="cuadro1-linea">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="tramitar" type="button" onclick="location.href='tienda.html';"
+                                        value="Tramitar pedido">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <a href="terminos.pdf">Términos y condiciones</a>
+            |
+            <a href="faq.html">FAQ</a>
+            |
+            <a href="contacto.html">Contacto</a>
+            <br><br>
+            © 2022 - 2023 Byteworld, SL. Todos los derechos reservados
+        </footer>
+    </div>
+</body>
+
+</html>

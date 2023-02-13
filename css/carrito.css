@@ -1,0 +1,287 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido-pagina {
+  position: relative;
+  min-height: 100vh;
+}
+
+.bg {
+  background-image: url("../img/bg/bg_carrito.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20%;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tabla-header {
+  width: 100%;
+}
+
+.buscar {
+  color: white;
+  background-color: #696969;
+  font-size: 15px;
+  padding: 6px;
+  position: relative;
+  top: -2.5px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #252570;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.contenido {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px;
+  border-collapse: separate;
+}
+
+.cuadro1 {
+  position: relative;
+  background-color: #cce9ff;
+  width: 400px;
+  margin: auto;
+  border: 5px solid mediumaquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cuadro1-contenido {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px;
+  border-collapse: separate;
+  height: 700px;
+}
+
+.cuadro1-metodos {
+  vertical-align: baseline;
+}
+
+.titular-pago {
+  background-color: #72a5f7;
+  height: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border: 10px solid #72a5f7;
+  border-radius: 6px 6px 6px 6px;
+  position: relative;
+  top: -5px;
+  text-align: center;
+}
+
+.cuadro2 {
+  background-color: #cce9ff;
+  width: 560px;
+  margin: auto;
+  border: 5px solid mediumaquamarine;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.titular-carrito {
+  background-color: #72a5f7;
+  height: 30px;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border: 10px solid #72a5f7;
+  border-radius: 6px 6px 6px 6px;
+  position: relative;
+  top: -22px;
+  text-align: center;
+}
+
+.preciofinal {
+  text-align: center;
+}
+
+.tabla-carrito {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.imagen-producto {
+  background-color: white;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.tramitar {
+  background-color: #31c485;
+  color: white;
+  font-weight: bolder;
+  width: 250px;
+  height: 70px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+}
+
+.tramitar:hover {
+  background-color: darkgreen;
+}
+
+.metodo-texto {
+  font-size: 13px;
+}
+
+.cuadro1-linea {
+  position: relative;
+  top: 41px;
+  border: 3px solid gray;
+}
+
+.buscar {
+  color: white;
+  background-color: #696969;
+  font-size: 15px;
+  padding: 6px;
+  position: relative;
+  top: 1px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.filtro {
+  font-size: 17px;
+}
+
+.separafiltro {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.separapagina {
+  padding-right: 10px;
+}
+
+.derecha {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.derecha-busqueda {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.linea {
+  border: 2px solid gray;
+}
+
+#busqueda {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  .bg {
+    padding-bottom: 30%;
+  }
+
+  #filtros-logo {
+    display: block;
+  }
+
+  #filtros-todo {
+    display: block;
+  }
+
+  #filtros-pc {
+    display: block;
+  }
+
+  #filtros-moviles {
+    display: block;
+  }
+
+  #filtros-videojuegos {
+    display: block;
+  }
+
+  #filtros-componentes {
+    display: block;
+  }
+
+  .derecha-busqueda {
+    text-align: center;
+  }
+
+  .contenido td {
+    display: block;
+  }
+
+  .cuadro1 {
+    width: 380px;
+  }
+
+  .cuadro2 {
+    width: 380px;
+  }
+
+  .imagen-producto {
+    height: 50px;
+  }
+}

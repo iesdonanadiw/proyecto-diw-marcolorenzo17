@@ -15,10 +15,20 @@ Esta tienda está enfocada principalmente a vender estos productos en Chipiona, 
 https://www.figma.com/file/CBX0YxyRdGZhrPkyNltvgJ/ByteWorld?t=gRSRkmd2miQP4XjI-1
 
 ## MODIFICACIONES A LA GUÍA DE ESTILOS<a name="id3"></a>
-[Listado de modificaciones realizadas debidadmente justificadas. ]
+ -  En la cabecera, se ha cambiado el enlace con el título "BYTEWORLD" por
+    el logo oficial de la empresa.
+ -  Se ha añadido una nueva página, "olvido.html", la cual sirve para
+    ayudar al usuario en caso de que se le haya olvidado la contraseña de
+    su cuenta.
+    Dicha página tiene además una nueva imagen de fondo, "bg_olvido.png".
+ -  En "carrito.html", se ha intercambiado la posición de los dos cuadros
+    para que esté más ordenado.
+ -  En las páginas de cada uno de los artículos, ya no hay un botón para ver
+    la descripción, especificaciones y detalles. Ahora está directamente
+    escrito en el cuadro.
 
 ## RECURSOS<a name="id4"></a>
-[Listado de recursos usados]
+Bootstrap, W3C CSS Validator y W3C HTML Validator.
 
 - Can I use?: https://caniuse.com/
 - Bootstrap: https://getbootstrap.com/
