@@ -27,6 +27,10 @@ header {
   font-size: 20px;
 }
 
+.tabla-header {
+  width: 100%;
+}
+
 .buscar {
   color: white;
   background-color: #696969;
@@ -162,6 +166,7 @@ h2 {
 .cuadro1-linea {
   position: relative;
   top: 41px;
+  border: 3px solid gray;
 }
 
 .buscar {
@@ -221,6 +226,10 @@ a:active {
   text-align: right;
 }
 
+.linea {
+  border: 2px solid gray;
+}
+
 #busqueda {
   height: 30px;
   border-radius: 5px;
@@ -232,7 +241,27 @@ a:active {
     padding-bottom: 30%;
   }
 
-  #filtros {
+  #filtros-logo {
+    display: block;
+  }
+
+  #filtros-todo {
+    display: block;
+  }
+
+  #filtros-pc {
+    display: block;
+  }
+
+  #filtros-moviles {
+    display: block;
+  }
+
+  #filtros-videojuegos {
+    display: block;
+  }
+
+  #filtros-componentes {
     display: block;
   }
 
