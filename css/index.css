@@ -6,6 +6,15 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+  transition: width 0.15s, height 0.15s;
+}
+
+.logo:hover {
+  width: 80px;
+  height: 80px;
+}
+
 .contenido-pagina {
   position: relative;
   min-height: 100vh;
@@ -92,10 +101,13 @@ h3, p {
   border-radius: 5px;
   color: white;
   font-weight: bold;
+  transition: width 0.15s, font-size 0.15s;
 }
 
 #tienda input:hover {
   background-color: #3377ff;
+  width: 350px;
+  font-size: 15px;
 }
 
 #loginregister {
@@ -117,10 +129,13 @@ h3, p {
   border-radius: 5px;
   color: blue;
   font-weight: bold;
+  transition: width 0.15s, font-size 0.15s;
 }
 
 #loginregister input:hover {
   background-color: lightgray;
+  width: 350px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 830px) {
