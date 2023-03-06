@@ -245,6 +245,10 @@ a:active {
   border: none;
 }
 
+details {
+  text-align: center;
+}
+
 @media screen and (max-width: 1000px) {
   .bg {
     padding-bottom: 30%;
